@@ -7,7 +7,7 @@
 }
 
 #app .header .page-logo:hover{
-    animation: spin 1.5s;
+    animation: spin 1s;
 }
 
 #app .page{
