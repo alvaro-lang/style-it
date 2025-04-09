@@ -1,0 +1,24 @@
+#app {
+}
+
+#app .header .page-logo{
+    cursor: pointer;
+    width: 50px;
+}
+
+#app .header .page-logo:hover{
+    animation: spin 1.5s;
+}
+
+#app .page{
+    margin: 50px 40px;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

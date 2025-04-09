@@ -1,4 +1,14 @@
-body {
-  margin: 0;
+html{
   background-color: #282c34;
+  font-size: 16px;
+  scroll-behavior: smooth;
+
+  color: rgb(174, 182, 203);
+}
+body {
+  margin: 30px 30px 100px 30px;
+  font-family: "Source Code Pro", serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
